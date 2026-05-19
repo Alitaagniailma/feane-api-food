@@ -1,11 +1,55 @@
-# Praktikum Public API (Ujian Tengah Semester)
+# Feane API Food
 
-Nama: Alita Agnia Ilma	 
-NIM: 2306700022	
-Kelas: TI6A	
+Website restoran modern yang mengambil data makanan dari Public API menggunakan JavaScript Fetch API.
 
-Project menggunakan:
+## Identitas Mahasiswa
+
+- Nama : Alita Agnia Ilma
+- NIM : 2306700022
+- Kelas : TI6A
+
+---
+
+## Fitur Website
+
+- Menampilkan data makanan dari Public API
+- Filter menu makanan
+- Responsive design
+- Animasi hover card
+- Hero section modern
+- Error handling API
+- Loading animation
+
+---
+
+## Teknologi yang Digunakan
+
 - HTML
 - CSS
 - JavaScript
-- FakeStoreAPI
+- Bootstrap
+- FakeStore API
+
+---
+
+## Public API
+
+API yang digunakan:
+
+https://fakestoreapi.com/products
+
+---
+
+## Demo Aplikasi
+
+Tambahkan link video demo di sini nanti.
+
+Contoh:
+
+belum
+
+---
+
+## 📂 Repository
+
+https://github.com/Alitaagniailma/feane-api-food
