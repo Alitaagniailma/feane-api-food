@@ -42,9 +42,6 @@ https://fakestoreapi.com/products
 
 ## Demo Aplikasi
 
-Tambahkan link video demo di sini nanti.
-
-Contoh:
 
 belum
 
