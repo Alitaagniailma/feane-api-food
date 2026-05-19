@@ -40,9 +40,10 @@ Project ini dibuat untuk memenuhi tugas Praktikum Pemrograman Web 2 tentang impl
 
 ## Tampilan Website
 
-![Preview Website](images/hero.png)
-![Preview Website](images/menu.png)
-
+<p align="center">
+  <img src="images/hero.png" width="100%">
+  <img src="images/menu.png" width="100%">
+</p>
 ---
 
 ## Video Demo
