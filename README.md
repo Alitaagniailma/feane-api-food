@@ -1,52 +1,56 @@
 # Feane API Food
 
-Website restoran modern yang mengambil data makanan dari Public API menggunakan JavaScript Fetch API.
+Website restoran modern yang dibuat menggunakan HTML, CSS, JavaScript, dan Public REST API.
 
-## Identitas Mahasiswa
+Project ini dibuat untuk memenuhi tugas Praktikum Pemrograman Web 2 tentang implementasi Public API menggunakan Fetch API JavaScript.
 
-- Nama : Alita Agnia Ilma
-- NIM : 2306700022
-- Kelas : TI6A
+---
+
+## Biodata Mahasiswa
+
+* Nama : Alita Agnia Ilma
+* NIM : 2306700022
+* Kelas : TI6A
 
 ---
 
 ## Fitur Website
 
-- Menampilkan data makanan dari Public API
-- Filter menu makanan
-- Responsive design
-- Animasi hover card
-- Hero section modern
-- Error handling API
-- Loading animation
+* Menampilkan data makanan dari Public API
+* Fetch API JavaScript
+* Search menu realtime
+* Responsive design
+* Modern UI
+* Error handling menggunakan Try-Catch
+* Loading animation
+* Hover animation card makanan
 
 ---
 
-## Teknologi yang Digunakan
+## Tools Yang Digunakan
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- FakeStore API
-
----
-
-## Public API
-
-API yang digunakan:
-
-https://fakestoreapi.com/products
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* Fetch API
+* Public REST API
 
 ---
 
-## Demo Aplikasi
+## Tampilan Website
 
-
-belum
+![Preview Website](images/screenshot.png)
 
 ---
 
-## 📂 Repository
+## Video Demo
 
+Link Demo Video:
+
+---
+
+## Repository GitHub
+
+GitHub Repository:
 https://github.com/Alitaagniailma/feane-api-food
