@@ -9,7 +9,8 @@
   <title>Feane API Food</title>
 
   <!-- CSS -->
-   <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -28,6 +29,7 @@
 
     <!-- HEADER -->
     <header class="header_section">
+
       <div class="container">
 
         <nav class="navbar navbar-expand-lg custom_nav-container">
@@ -41,10 +43,15 @@
         </nav>
 
       </div>
+
     </header>
 
     <!-- HERO CONTENT -->
     <section class="slider_section">
+
+      <span class="badge-api">
+        Live Public API
+      </span>
 
       <div class="container">
 
@@ -55,18 +62,18 @@
             <div class="detail-box">
 
               <h1>
-              Modern Food API Website
-            </h1>
+                Modern Food API Website
+              </h1>
 
-            <p>
-              Website restoran modern yang mengambil data makanan langsung dari Public API menggunakan JavaScript Fetch API.
-            </p>
+              <p>
+                Website restoran modern yang mengambil data makanan langsung dari Public API menggunakan JavaScript Fetch API.
+              </p>
 
-            <div class="btn-box">
-              <a href="#menu" class="btn1">
-                Explore Menu
-              </a>
-            </div>
+              <div class="btn-box">
+
+                <a href="#menu" class="btn1">
+                  Explore Menu
+                </a>
 
               </div>
 
@@ -92,8 +99,11 @@
         <h2>
           Our Menu
         </h2>
-        
-        <div class="search-box text-center mb-5">
+
+      </div>
+
+      <!-- SEARCH -->
+      <div class="search-box text-center mb-5">
 
         <input 
           type="text"
@@ -107,17 +117,112 @@
             padding: 12px 20px;
           "
         >
-        </div>
 
       </div>
 
       <!-- PRODUCT GRID -->
-      <div id="loading" class="loading">
-      <div class="spinner"></div>
-      <p>Loading delicious menu...</p>
+      <div class="row grid" id="product-container">
+
       </div>
 
-      <div class="row grid" id="product-container">
+    </div>
+
+  </section>
+
+
+  <!-- STATS SECTION -->
+  <section class="py-5 text-center">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4">
+
+          <h1 style="color:#ffbe33;">
+            50+
+          </h1>
+
+          <p>
+            Food Menu
+          </p>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <h1 style="color:#ffbe33;">
+            1000+
+          </h1>
+
+          <p>
+            Happy Customers
+          </p>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <h1 style="color:#ffbe33;">
+            24/7
+          </h1>
+
+          <p>
+            Fast Delivery
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about_section layout_padding">
+
+    <div class="container">
+
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+
+          <div class="img-box text-center">
+
+            <img 
+              src="images/about-img.png" 
+              alt=""
+              style="max-width: 350px;"
+            >
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="detail-box text-white">
+
+            <div class="heading_container">
+
+              <h2>
+                We Are Feane
+              </h2>
+
+            </div>
+
+            <p>
+              Feane API Food adalah website restoran modern yang dibuat menggunakan Public REST API dan JavaScript Fetch API. Website ini mampu menampilkan data makanan secara realtime dengan tampilan modern dan responsive.
+            </p>
+
+            <a href="#menu" class="btn btn-warning mt-3 px-4 py-2 rounded-pill">
+              See Our Foods
+            </a>
+
+          </div>
+
+        </div>
 
       </div>
 
@@ -133,7 +238,7 @@
       <div class="footer-info">
 
         <p>
-          REST API Project - Pemrograman Web 2
+          Created by Alita Agnia Ilma - TI6A
         </p>
 
       </div>
@@ -145,24 +250,38 @@
   <!-- JS -->
   <script type="module" src="js/app.js"></script>
 
+  <!-- CUSTOM STYLE -->
   <style>
 
-  .box {
-    transition: 0.3s;
-  }
+    .box {
+      transition: 0.3s;
+    }
 
-  .box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
-  }
+    .box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    }
 
-  #search-input {
-    transition: 0.3s;
-  }
+    #search-input {
+      transition: 0.3s;
+    }
 
-  #search-input:focus {
-    box-shadow: 0px 0px 20px rgba(255,190,51,0.7);
-  }
+    #search-input:focus {
+      box-shadow: 0px 0px 20px rgba(255,190,51,0.7);
+    }
+
+    .badge-api {
+      position: absolute;
+      top: 140px;
+      right: 100px;
+      background: #ffbe33;
+      color: #222831;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      z-index: 10;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    }
 
   </style>
 

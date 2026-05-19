@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
@@ -511,6 +515,8 @@ a:focus {
   border-radius: 15px;
   overflow: hidden;
   background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+
+  animation: fadeUp 0.6s ease;
 }
 
 .food_section .box .img-box {
@@ -1256,4 +1262,111 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge-api {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffbe33;
+  color: #222831;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255,190,51,0.7);
+  }
+
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 15px rgba(255,190,51,0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255,190,51,0);
+  }
+}
+
+.box {
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+#search-input {
+  transition: 0.3s;
+}
+
+#search-input:focus {
+  box-shadow: 0px 0px 20px rgba(255,190,51,0.7);
+}
+
+.about_section {
+  background: #222831;
+  color: white;
+}
+
+.about_section img {
+  animation: floatImage 3s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.box {
+  animation: fadeUp 0.5s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn1,
+.btn-warning {
+  transition: 0.3s;
+}
+
+.btn1:hover,
+.btn-warning:hover {
+  transform: scale(1.05);
+}
+
 /*# sourceMappingURL=style.css.map */
