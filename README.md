@@ -40,7 +40,8 @@ Project ini dibuat untuk memenuhi tugas Praktikum Pemrograman Web 2 tentang impl
 
 ## Tampilan Website
 
-![Preview Website](images/screenshot.png)
+![Preview Website](images/hero.png)
+![Preview Website](images/menu.png)
 
 ---
 
