@@ -1369,4 +1369,7 @@ body {
   transform: scale(1.05);
 }
 
+.py-5 {
+  background: #f8f9fa;
+}
 /*# sourceMappingURL=style.css.map */

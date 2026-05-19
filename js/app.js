@@ -60,14 +60,14 @@ async function loadProducts() {
     ];
 
     const foodImages = [
-      "images/f1.png",
       "images/f2.png",
-      "images/f3.png",
+      "images/f6.png",
       "images/f4.png",
       "images/f5.png",
-      "images/f6.png",
-      "images/f7.png",
-      "images/f8.png"
+      "images/f8.png",
+      "images/f3.png",
+      "images/f9.png",
+      "images/f7.png"
     ];
 
     // LOOP PRODUK
