@@ -51,7 +51,7 @@ Project ini dibuat untuk memenuhi tugas Praktikum Pemrograman Web 2 tentang impl
 ## Video Demo
 
 Link Demo Video:
-Belum
+https://youtu.be/wijpHuK2Nkk?si=jGO_EGMug9fAeN78
 ---
 
 ## Repository GitHub
