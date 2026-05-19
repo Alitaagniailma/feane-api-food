@@ -42,6 +42,8 @@ Project ini dibuat untuk memenuhi tugas Praktikum Pemrograman Web 2 tentang impl
 
 <p align="center">
   <img src="images/hero.png" width="100%">
+</p>
+<p align="center">
   <img src="images/menu.png" width="100%">
 </p>
 ---
