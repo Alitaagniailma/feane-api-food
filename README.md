@@ -1,8 +1,8 @@
-# Praktikum Public API
+# Praktikum Public API (Ujian Tengah Semester)
 
-Nama: Nama Kamu  
-NIM: NIM Kamu  
-Kelas: Kelas Kamu
+Nama: Alita Agnia Ilma 
+NIM: 2306700022
+Kelas: TI6A
 
 Project menggunakan:
 - HTML
